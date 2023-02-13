@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+:root {
+  --background : #F2F2F2;
+  --red :#EA5454;
+  --light-green :#44D3D2;
+  --orange : #FCAE4A;
+  --blue:#549EF2;
+  --black :#4D4F62;
+}
+body{
+  width: 100vw;
+  min-height: 100hw;
+  background-color: var(--background);
+  font-family: 'Poppins', sans-serif;
+  padding: 85px 32px 78px 32px;
+  text-align: center;
+  
+}
+
+.description {
+  letter-spacing: 0.17px;
+  font-weight: 300;
+  font-size: 24px;
+  color:var(--black);
+  line-height: 36px;
+ }
+
+.title {
+  letter-spacing: 0.17px;
+  font-weight: 600;
+  font-size: 24px;
+  color:var(--black);
+  line-height: 36px;
+}
+.about {
+  letter-spacing: 0.1px;
+  font-weight: 400;
+  font-size: 15px;
+  color:var(--black);
+  line-height: 25px;
+  opacity: 0.5;
+  margin-top: 16px;
+}
+.card {
+  width: 100%;
+  padding-bottom:28px;
+  background-color: white;
+  box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+  border-radius: 8px;
+  text-align: left;
+  overflow: hidden;
+ 
+
+}
+.green {
+  margin-top: 76px;
+}
+
+.card-title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: var(--black);
+  
+}
+.card-description {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 23px;
+  letter-spacing: 0.09;
+  color: var(--black);
+  opacity: 50%;
+  
+}
+.icon {
+  margin-top: 33px;
+  width: 24px;
+  height: 24px;
+  margin-left: auto;
+
+}
+.border {
+  width: 100%;
+  height: 2.5px;
+ background-color: var(--light-green);
+ border-top-left-radius: 8px;
+ border-top-right-radius: 8px ;
+ 
+
+}
+.content {
+  margin-top: 27px;
+  padding: 0 28px;
+  display: flex;
+flex-direction: column;
+
+}
+ .red {
+  margin-top: 25px;
+ }
+
+.red .border {
+  background-color: var(--red);
+}
+.blue {
+  margin-top: 25px;
+ }
+
+.blue .border {
+  background-color: var(--blue);
+}
+.orange{
+  margin-top: 25px;
+ }
+
+.orange .border {
+  background-color: var(--orange);
+}
