@@ -19,6 +19,9 @@ body{
   font-family: 'Poppins', sans-serif;
   padding: 85px 32px 78px 32px;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   
 }
 
@@ -120,4 +123,42 @@ flex-direction: column;
 
 .orange .border {
   background-color: var(--orange);
+}
+ 
+
+
+@media (min-width:768px) {
+    .card{
+        width: 350px;
+    }
+}
+
+
+
+
+@media (min-width:1440px) {
+    .description,
+    .title {
+        font-size: 36px;
+        line-height: 54px;
+        letter-spacing: 0.25px;
+} 
+.card{
+    height: 250px;
+}
+.section {
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+    
+}
+.green, .red, .orange, .blue {
+    margin-top: 0;
+}
+.orange, .red {
+    margin-top: 30px;
+}
+.about {
+    width: 540px;
+}
 }
